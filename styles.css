@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+
+.clock {
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    color: #00FFFF; /* Neon Cyan */
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF;
+    background-color: #000;
+    padding: 100%;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+#date {
+    font-size: 1.5rem;
+    color: #FFF;
+    text-shadow: 0 0 5px #FFF;
+}
+
+#time {
+    font-size: 2.5rem;
+    color: #00FFFF;
+}
